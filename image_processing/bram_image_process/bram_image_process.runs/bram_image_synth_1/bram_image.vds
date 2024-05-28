@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun May 19 21:11:56 2024
+# Process ID: 11504
+# Current directory: C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/bram_image_synth_1
+# Command line: vivado.exe -log bram_image.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bram_image.tcl
+# Log file: C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/bram_image_synth_1/bram_image.vds
+# Journal file: C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/bram_image_synth_1\vivado.jou
+# Running On: DESKTOP-H7C6RT8, OS: Windows, CPU Frequency: 3593 MHz, CPU Physical cores: 16, Host memory: 34269 MB
+#-----------------------------------------------------------
+source bram_image.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 507.891 ; gain = 217.645
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bram_image
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 3f4b6d55206d4b5f to dir: C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/bram_image_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.cache/ip/2023.2/3/f/3f4b6d55206d4b5f/bram_image.dcp to C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/bram_image_synth_1/bram_image.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.cache/ip/2023.2/3/f/3f4b6d55206d4b5f/bram_image_sim_netlist.v to C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/bram_image_synth_1/bram_image_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.cache/ip/2023.2/3/f/3f4b6d55206d4b5f/bram_image_sim_netlist.vhdl to C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/bram_image_synth_1/bram_image_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.cache/ip/2023.2/3/f/3f4b6d55206d4b5f/bram_image_stub.v to C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/bram_image_synth_1/bram_image_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.cache/ip/2023.2/3/f/3f4b6d55206d4b5f/bram_image_stub.vhdl to C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/bram_image_synth_1/bram_image_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP bram_image, cache-ID = 3f4b6d55206d4b5f.
+INFO: [Common 17-206] Exiting Vivado at Sun May 19 21:12:06 2024...

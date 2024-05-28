@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+transmit ha3
+transmit ha3 after wait
+Test Passed: Received data = a3
+transmit h55 after wait
+Test Passed: Received data = 55
+transmit ha3
+transmit ha3 after wait
+Test Passed: Received data = a3
+$stop called at time : 4725 ns : File "C:/Users/l3853/Documents/TCSS600/uart_receive/uart_receive.srcs/sim_1/new/receive_tb.v" Line 125

@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/l3853/Documents/TCSS600/uart_transimit/uart_transimit.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/l3853/Documents/TCSS600/uart_transimit/uart_transimit.srcs/sim_1/new/tb.v,1716596298,verilog,,,,transmitter_tb,,,,,,,,
+C:/Users/l3853/Documents/TCSS600/uart_transimit/uart_transimit.srcs/sources_1/new/top.v,1716597008,verilog,,C:/Users/l3853/Documents/TCSS600/uart_transimit/uart_transimit.srcs/sources_1/new/transmitter.v,,top,,,,,,,,
+C:/Users/l3853/Documents/TCSS600/uart_transimit/uart_transimit.srcs/sources_1/new/transmit_bouncing.v,1716595856,verilog,,C:/Users/l3853/Documents/TCSS600/uart_transimit/uart_transimit.srcs/sources_1/new/transmitter.v,,transmit_debouncing,,,,,,,,
+C:/Users/l3853/Documents/TCSS600/uart_transimit/uart_transimit.srcs/sources_1/new/transmitter.v,1716596781,verilog,,C:/Users/l3853/Documents/TCSS600/uart_transimit/uart_transimit.srcs/sim_1/new/tb.v,,transmitter,,,,,,,,

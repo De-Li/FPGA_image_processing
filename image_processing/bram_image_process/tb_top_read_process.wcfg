@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="243.668179 us"></ZoomEndTime>
+      <Cursor1Time time="100.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="199"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/tb_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/addra" type="array">
+      <obj_property name="ElementShortName">addra[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/douta" type="array">
+      <obj_property name="ElementShortName">douta[23:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/done_in" type="logic">
+      <obj_property name="ElementShortName">done_in</obj_property>
+      <obj_property name="ObjectShortName">done_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/red" type="array">
+      <obj_property name="ElementShortName">red[7:0]</obj_property>
+      <obj_property name="ObjectShortName">red[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/green" type="array">
+      <obj_property name="ElementShortName">green[7:0]</obj_property>
+      <obj_property name="ObjectShortName">green[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/blue" type="array">
+      <obj_property name="ElementShortName">blue[7:0]</obj_property>
+      <obj_property name="ObjectShortName">blue[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/red_o" type="array">
+      <obj_property name="ElementShortName">red_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">red_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/green_o" type="array">
+      <obj_property name="ElementShortName">green_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">green_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/blue_o" type="array">
+      <obj_property name="ElementShortName">blue_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">blue_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/done_out" type="logic">
+      <obj_property name="ElementShortName">done_out</obj_property>
+      <obj_property name="ObjectShortName">done_out</obj_property>
+   </wvobject>
+</wave_config>

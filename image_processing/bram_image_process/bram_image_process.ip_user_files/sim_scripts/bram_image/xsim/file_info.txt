@@ -1,0 +1,2 @@
+bram_image.v,verilog,xil_defaultlib,../../../../bram_image_process.gen/sources_1/ip/bram_image/sim/bram_image.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

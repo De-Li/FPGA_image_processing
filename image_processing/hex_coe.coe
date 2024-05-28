@@ -1,0 +1,5 @@
+; Sample Memory Initialization File
+memory_initialization_radix=16;
+memory_initialization_vector=
+A5, 5A, FF, 00, 11, 22, 33, 44,
+55, 66, 77, 88, 99, AA, BB, CC;
