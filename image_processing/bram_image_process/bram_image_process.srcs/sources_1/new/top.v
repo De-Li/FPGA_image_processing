@@ -125,12 +125,13 @@ always @(posedge clk) begin
             end
             LOAD: begin
                 wea <= 1;
+                addra <= addra + 18401;
                 dina[7:0] <= red_o;
                 dina[15:8] <= green_o;
                 dina[23:16] <= blue_o;
             end
             WRITE:begin //BRAM write dina at this state so change addra simultaneously won't affect writing address.
-                addra <= addra + 1;
+                addra <= addra - 18400;
                 i <= i + 1;
             end
             DONE: begin

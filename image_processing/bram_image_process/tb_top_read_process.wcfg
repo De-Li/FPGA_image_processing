@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
-      <ZoomEndTime time="243.668179 us"></ZoomEndTime>
-      <Cursor1Time time="100.000000 us"></Cursor1Time>
+      <ZoomStartTime time="184,000.826 ns"></ZoomStartTime>
+      <ZoomEndTime time="184,152.227 ns"></ZoomEndTime>
+      <Cursor1Time time="184,031.226 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="199"></NameColumnWidth>
-      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+      <ValueColumnWidth column_width="75"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="18" />
+   <WVObjectSize size="12" />
    <wvobject fp_name="/tb_top/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -53,8 +53,8 @@
       <obj_property name="ObjectShortName">addra[14:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_top/douta" type="array">
-      <obj_property name="ElementShortName">douta[23:0]</obj_property>
-      <obj_property name="ObjectShortName">douta[23:0]</obj_property>
+      <obj_property name="ElementShortName">douta[47:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[47:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_top/done" type="logic">
       <obj_property name="ElementShortName">done</obj_property>
@@ -64,32 +64,9 @@
       <obj_property name="ElementShortName">done_in</obj_property>
       <obj_property name="ObjectShortName">done_in</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/red" type="array">
-      <obj_property name="ElementShortName">red[7:0]</obj_property>
-      <obj_property name="ObjectShortName">red[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/green" type="array">
-      <obj_property name="ElementShortName">green[7:0]</obj_property>
-      <obj_property name="ObjectShortName">green[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/blue" type="array">
-      <obj_property name="ElementShortName">blue[7:0]</obj_property>
-      <obj_property name="ObjectShortName">blue[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/red_o" type="array">
-      <obj_property name="ElementShortName">red_o[7:0]</obj_property>
-      <obj_property name="ObjectShortName">red_o[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/green_o" type="array">
-      <obj_property name="ElementShortName">green_o[7:0]</obj_property>
-      <obj_property name="ObjectShortName">green_o[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/blue_o" type="array">
-      <obj_property name="ElementShortName">blue_o[7:0]</obj_property>
-      <obj_property name="ObjectShortName">blue_o[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/done_out" type="logic">
-      <obj_property name="ElementShortName">done_out</obj_property>
-      <obj_property name="ObjectShortName">done_out</obj_property>
+   <wvobject fp_name="/tb_top/done_out" type="array">
+      <obj_property name="ElementShortName">done_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">done_out[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
    </wvobject>
 </wave_config>

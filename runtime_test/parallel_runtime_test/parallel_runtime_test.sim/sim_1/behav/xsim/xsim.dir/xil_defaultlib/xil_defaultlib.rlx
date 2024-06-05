@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.gen/sources_1/ip/bram_image/sim/bram_image.v,1717552759,verilog,,C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.srcs/sources_1/new/grayscale.v,,bram_image,,,,,,,,
+C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.srcs/sim_1/new/tb.v,1717480925,verilog,,,,uart_top_tb,,,,,,,,
+C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.srcs/sources_1/new/grayscale.v,1717101255,verilog,,C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.srcs/sources_1/new/image_bram.v,,image_processing,,,,,,,,
+C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.srcs/sources_1/new/image_bram.v,1717517996,verilog,,C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.srcs/sources_1/new/top.v,,image_scheduler,,,,,,,,
+C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.srcs/sources_1/new/top.v,1717205322,verilog,,C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.srcs/sources_1/new/uart_receive.v,,top,,,,,,,,
+C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.srcs/sources_1/new/uart_receive.v,1717480986,verilog,,C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.srcs/sources_1/new/uart_transmit.v,,uart_receive,,,,,,,,
+C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.srcs/sources_1/new/uart_transmit.v,1717480993,verilog,,C:/Users/l3853/Documents/GitHub/FPGA/parallel_runtime_test/parallel_runtime_test.srcs/sim_1/new/tb.v,,transmitter,,,,,,,,

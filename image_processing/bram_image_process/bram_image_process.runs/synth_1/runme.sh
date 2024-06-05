@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/synth_1'
+HD_PWD='C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

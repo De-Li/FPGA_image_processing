@@ -3,18 +3,18 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Mon May 27 17:46:45 2024
-# Process ID: 18044
-# Current directory: C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/synth_1
+# Start of session at: Mon May 27 22:45:56 2024
+# Process ID: 1920
+# Current directory: C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
-# Log file: C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/synth_1/top.vds
-# Journal file: C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/synth_1\vivado.jou
+# Log file: C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.runs/synth_1/top.vds
+# Journal file: C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.runs/synth_1\vivado.jou
 # Running On: DESKTOP-H7C6RT8, OS: Windows, CPU Frequency: 3593 MHz, CPU Physical cores: 16, Host memory: 34269 MB
 #-----------------------------------------------------------
 source top.tcl -notrace
-create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 509.062 ; gain = 216.578
-Command: read_checkpoint -auto_incremental -incremental C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/utils_1/imports/synth_1/image_processing.dcp
-INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/utils_1/imports/synth_1/image_processing.dcp for incremental synthesis
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 510.441 ; gain = 216.484
+Command: read_checkpoint -auto_incremental -incremental C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/utils_1/imports/synth_1/image_processing.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/utils_1/imports/synth_1/image_processing.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
 Command: synth_design -top top -part xc7a35tcpg236-1
 Starting synth_design
@@ -25,97 +25,97 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 19500
+INFO: [Synth 8-7075] Helper process launched with PID 25824
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1351.926 ; gain = 440.746
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1351.379 ; gain = 441.316
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-9400] empty statement in sequential block [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:123]
-WARNING: [Synth 8-9400] empty statement in sequential block [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:177]
-WARNING: [Synth 8-9400] empty statement in sequential block [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:182]
-INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:23]
-INFO: [Synth 8-6157] synthesizing module 'image_processing' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/image_processing.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'image_processing' (0#1) [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/image_processing.v:23]
-INFO: [Synth 8-6157] synthesizing module 'bram_image' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/synth_1/.Xil/Vivado-18044-DESKTOP-H7C6RT8/realtime/bram_image_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'bram_image' (0#1) [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/synth_1/.Xil/Vivado-18044-DESKTOP-H7C6RT8/realtime/bram_image_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:23]
-WARNING: [Synth 8-6014] Unused sequential element red_x_reg was removed.  [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/image_processing.v:70]
-WARNING: [Synth 8-6014] Unused sequential element green_x_reg was removed.  [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/image_processing.v:71]
-WARNING: [Synth 8-6014] Unused sequential element blue_x_reg was removed.  [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/image_processing.v:72]
+WARNING: [Synth 8-9400] empty statement in sequential block [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:123]
+WARNING: [Synth 8-9400] empty statement in sequential block [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:178]
+WARNING: [Synth 8-9400] empty statement in sequential block [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:183]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'image_processing' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/image_processing.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'image_processing' (0#1) [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/image_processing.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bram_image' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.runs/synth_1/.Xil/Vivado-1920-DESKTOP-H7C6RT8/realtime/bram_image_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bram_image' (0#1) [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.runs/synth_1/.Xil/Vivado-1920-DESKTOP-H7C6RT8/realtime/bram_image_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-6014] Unused sequential element red_x_reg was removed.  [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/image_processing.v:70]
+WARNING: [Synth 8-6014] Unused sequential element green_x_reg was removed.  [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/image_processing.v:71]
+WARNING: [Synth 8-6014] Unused sequential element blue_x_reg was removed.  [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/image_processing.v:72]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1469.367 ; gain = 558.188
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1468.762 ; gain = 558.699
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1469.367 ; gain = 558.188
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1468.762 ; gain = 558.699
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1469.367 ; gain = 558.188
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1468.762 ; gain = 558.699
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1469.367 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1468.762 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.gen/sources_1/ip/bram_image/bram_image/bram_image_in_context.xdc] for cell 'bram'
-Finished Parsing XDC File [c:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.gen/sources_1/ip/bram_image/bram_image/bram_image_in_context.xdc] for cell 'bram'
-Parsing XDC File [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[6]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:10]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[6]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:11]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[5]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:12]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[5]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:13]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[4]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:14]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[4]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:15]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[3]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:16]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[3]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:17]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[2]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:18]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[2]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:19]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[1]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:20]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[1]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:21]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[0]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:22]
-WARNING: [Vivado 12-584] No ports matched 'LED_outs[0]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:23]
-WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[0]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:26]
-WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[0]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:27]
-WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[1]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:28]
-WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[1]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:29]
-WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[2]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:30]
-WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[2]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:31]
-WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[3]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:32]
-WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[3]'. [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:33]
-Finished Parsing XDC File [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc]
-WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Parsing XDC File [c:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.gen/sources_1/ip/bram_image/bram_image/bram_image_in_context.xdc] for cell 'bram'
+Finished Parsing XDC File [c:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.gen/sources_1/ip/bram_image/bram_image/bram_image_in_context.xdc] for cell 'bram'
+Parsing XDC File [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[6]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[6]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:11]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[5]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:12]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[5]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:13]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[4]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:14]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[4]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:15]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[3]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:16]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[3]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:17]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[2]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:18]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[2]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[1]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[1]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[0]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'LED_outs[0]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[0]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[0]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[1]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[1]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[2]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[2]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[3]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'Anode_Activate[3]'. [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc:33]
+Finished Parsing XDC File [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1563.316 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1570.648 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1563.316 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1570.648 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property KEEP_HIERARCHY = SOFT for bram. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'top'
-WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_next_state_reg' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:78]
-WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_next_state_reg' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:78]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_next_state_reg' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:78]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_next_state_reg' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:78]
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -127,16 +127,16 @@ WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_next_state_reg' 
                     DONE |                              101 |                              101
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'top'
-WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_next_state_reg' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:78]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_next_state_reg' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:78]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input   15 Bit       Adders := 1     
+	   2 Input   15 Bit       Adders := 2     
 	   2 Input    9 Bit       Adders := 3     
 	   3 Input    9 Bit       Adders := 3     
 	   6 Input    8 Bit       Adders := 1     
@@ -176,25 +176,25 @@ WARNING: [Synth 8-3332] Sequential element (FSM_sequential_next_state_reg[2]) is
 WARNING: [Synth 8-3332] Sequential element (FSM_sequential_next_state_reg[1]) is unused and will be removed from module top.
 WARNING: [Synth 8-3332] Sequential element (FSM_sequential_next_state_reg[0]) is unused and will be removed from module top.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -212,48 +212,48 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[14] with 1st driver pin 'addra_reg[14]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[14] with 2nd driver pin 'addra_reg[14]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[13] with 1st driver pin 'addra_reg[13]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[13] with 2nd driver pin 'addra_reg[13]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[12] with 1st driver pin 'addra_reg[12]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[12] with 2nd driver pin 'addra_reg[12]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[11] with 1st driver pin 'addra_reg[11]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[11] with 2nd driver pin 'addra_reg[11]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[10] with 1st driver pin 'addra_reg[10]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[10] with 2nd driver pin 'addra_reg[10]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[9] with 1st driver pin 'addra_reg[9]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[9] with 2nd driver pin 'addra_reg[9]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[8] with 1st driver pin 'addra_reg[8]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[8] with 2nd driver pin 'addra_reg[8]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[7] with 1st driver pin 'addra_reg[7]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[7] with 2nd driver pin 'addra_reg[7]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[6] with 1st driver pin 'addra_reg[6]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[6] with 2nd driver pin 'addra_reg[6]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[5] with 1st driver pin 'addra_reg[5]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[5] with 2nd driver pin 'addra_reg[5]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[4] with 1st driver pin 'addra_reg[4]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[4] with 2nd driver pin 'addra_reg[4]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[3] with 1st driver pin 'addra_reg[3]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[3] with 2nd driver pin 'addra_reg[3]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[2] with 1st driver pin 'addra_reg[2]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[2] with 2nd driver pin 'addra_reg[2]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[1] with 1st driver pin 'addra_reg[1]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[1] with 2nd driver pin 'addra_reg[1]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[0] with 1st driver pin 'addra_reg[0]__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[0] with 2nd driver pin 'addra_reg[0]/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:169]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ena with 1st driver pin 'ena_reg__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:166]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ena with 2nd driver pin 'ena_reg/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:58]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin wea with 1st driver pin 'wea_reg__0/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:167]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin wea with 2nd driver pin 'wea_reg/Q' [C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:59]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[14] with 1st driver pin 'addra_reg[14]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[14] with 2nd driver pin 'addra_reg[14]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[13] with 1st driver pin 'addra_reg[13]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[13] with 2nd driver pin 'addra_reg[13]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[12] with 1st driver pin 'addra_reg[12]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[12] with 2nd driver pin 'addra_reg[12]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[11] with 1st driver pin 'addra_reg[11]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[11] with 2nd driver pin 'addra_reg[11]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[10] with 1st driver pin 'addra_reg[10]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[10] with 2nd driver pin 'addra_reg[10]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[9] with 1st driver pin 'addra_reg[9]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[9] with 2nd driver pin 'addra_reg[9]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[8] with 1st driver pin 'addra_reg[8]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[8] with 2nd driver pin 'addra_reg[8]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[7] with 1st driver pin 'addra_reg[7]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[7] with 2nd driver pin 'addra_reg[7]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[6] with 1st driver pin 'addra_reg[6]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[6] with 2nd driver pin 'addra_reg[6]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[5] with 1st driver pin 'addra_reg[5]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[5] with 2nd driver pin 'addra_reg[5]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[4] with 1st driver pin 'addra_reg[4]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[4] with 2nd driver pin 'addra_reg[4]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[3] with 1st driver pin 'addra_reg[3]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[3] with 2nd driver pin 'addra_reg[3]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[2] with 1st driver pin 'addra_reg[2]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[2] with 2nd driver pin 'addra_reg[2]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[1] with 1st driver pin 'addra_reg[1]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[1] with 2nd driver pin 'addra_reg[1]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[0] with 1st driver pin 'addra_reg[0]__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:60]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin addra[0] with 2nd driver pin 'addra_reg[0]/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:170]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ena with 1st driver pin 'ena_reg__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:167]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ena with 2nd driver pin 'ena_reg/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:58]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin wea with 1st driver pin 'wea_reg__0/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:168]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin wea with 2nd driver pin 'wea_reg/Q' [C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.srcs/sources_1/new/top.v:59]
 
 Report Check Netlist: 
 +------+------------------+-------+---------+-------+------------------+
@@ -265,25 +265,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -302,11 +302,11 @@ Report Cell Usage:
 +------+-----------+------+
 |1     |bram_image |     1|
 |2     |BUFG       |     1|
-|3     |CARRY4     |    24|
-|4     |LUT1       |     4|
-|5     |LUT2       |    67|
-|6     |LUT3       |    18|
-|7     |LUT4       |    15|
+|3     |CARRY4     |    28|
+|4     |LUT1       |    15|
+|5     |LUT2       |    51|
+|6     |LUT3       |    19|
+|7     |LUT4       |    30|
 |8     |LUT5       |     8|
 |9     |LUT6       |     5|
 |10    |FDRE       |   135|
@@ -314,28 +314,28 @@ Report Cell Usage:
 |12    |OBUF       |     1|
 +------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1570.648 ; gain = 660.586
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 34 critical warnings and 7 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 1563.316 ; gain = 558.188
-Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1563.316 ; gain = 652.137
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 1570.648 ; gain = 558.699
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1570.648 ; gain = 660.586
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1563.316 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1570.648 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1563.316 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1570.648 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: bbff89aa
+Synth Design complete | Checksum: edfbc411
 INFO: [Common 17-83] Releasing license: Synthesis
 29 Infos, 36 Warnings, 34 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1563.316 ; gain = 1042.363
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1570.648 ; gain = 1048.430
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1563.316 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/synth_1/top.dcp' has been generated.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1570.648 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon May 27 17:47:28 2024...
+INFO: [Common 17-206] Exiting Vivado at Mon May 27 22:46:38 2024...

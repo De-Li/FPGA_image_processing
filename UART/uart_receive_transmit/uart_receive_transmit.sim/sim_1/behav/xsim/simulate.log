@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Time: 20.000 ns | RxData: 11111111 | TxD: x | data_to_transmit: 00000000 | transmit: 0 | done: 0
+Time: 25.000 ns | RxData: 11111111 | TxD: 1 | data_to_transmit: 00000000 | transmit: 0 | done: 0
+$stop called at time : 5100 ns : File "C:/Users/l3853/Documents/GitHub/FPGA/UART/uart_receive_transmit/uart_receive_transmit.srcs/sim_1/new/tb.v" Line 102

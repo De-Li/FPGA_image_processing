@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Mon May 27 17:46:45 2024
-# Process ID: 18044
-# Current directory: C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/synth_1
+# Start of session at: Mon May 27 22:45:56 2024
+# Process ID: 1920
+# Current directory: C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
-# Log file: C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/synth_1/top.vds
-# Journal file: C:/Users/l3853/Documents/TCSS600/FPGA_projects/FPGA_projects/bram_image_process/bram_image_process.runs/synth_1\vivado.jou
+# Log file: C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.runs/synth_1/top.vds
+# Journal file: C:/Users/l3853/Documents/GitHub/FPGA/image_processing/bram_image_process/bram_image_process.runs/synth_1\vivado.jou
 # Running On: DESKTOP-H7C6RT8, OS: Windows, CPU Frequency: 3593 MHz, CPU Physical cores: 16, Host memory: 34269 MB
 #-----------------------------------------------------------
 source top.tcl -notrace

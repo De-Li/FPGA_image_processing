@@ -1,0 +1,132 @@
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module uart_top_tb.uut.image_processor.bram.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Time: 20000 | state: 000 | RxData: 11111111 | data_to_transmit: xxxxxxxx | transmit: 0 | image_done: 0 | TxD: x
+Time: 25000 | state: 000 | RxData: 11111111 | data_to_transmit: xxxxxxxx | transmit: 0 | image_done: 0 | TxD: 1
+Time: 1525000 | state: 001 | RxData: 11111111 | data_to_transmit: xxxxxxxx | transmit: 0 | image_done: 0 | TxD: 1
+Time: 1535000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 1635000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 1755000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 1815000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 1935000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 1995000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 2055000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 2115000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 2175000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 2195000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 2205000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 2295000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 2415000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 2475000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 2595000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 2655000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 2715000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 2775000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 2835000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+blk_mem_gen_v8_4_7 WARNING: Address 2607 is outside range for A Read
+blk_mem_gen_v8_4_7 WARNING: Address 2607 is outside range for A Read
+blk_mem_gen_v8_4_7 WARNING: Address 2608 is outside range for A Read
+blk_mem_gen_v8_4_7 WARNING: Address 2608 is outside range for A Read
+Time: 196945000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 1 | TxD: 1
+blk_mem_gen_v8_4_7 WARNING: Address 2609 is outside range for A Read
+Time: 196955000 | state: 010 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 196965000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 197055000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 197235000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 197295000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 197475000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 197535000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 197595000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 197615000 | state: 011 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 197625000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 197715000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 197895000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 197955000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 198135000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 198195000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 198255000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 198455000 | state: 001 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 198465000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 198555000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 198675000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 198735000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 198855000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 198915000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 198975000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 199035000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 199095000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 199115000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 199125000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 199215000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 199335000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 199395000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 199515000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 199575000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 199635000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 199695000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 199755000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+blk_mem_gen_v8_4_7 WARNING: Address 2607 is outside range for A Read
+blk_mem_gen_v8_4_7 WARNING: Address 2607 is outside range for A Read
+blk_mem_gen_v8_4_7 WARNING: Address 2608 is outside range for A Read
+blk_mem_gen_v8_4_7 WARNING: Address 2608 is outside range for A Read
+Time: 393865000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 1 | TxD: 1
+blk_mem_gen_v8_4_7 WARNING: Address 2609 is outside range for A Read
+Time: 393875000 | state: 010 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 393885000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 393975000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 394155000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 394215000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 394395000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 394455000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 394515000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 394535000 | state: 011 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 394545000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 394635000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 394815000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 394875000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 395055000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 395115000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 395175000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 395255000 | state: 001 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 395265000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 395355000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 395475000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 395535000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 395655000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 395715000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 395775000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 395835000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 395895000 | state: 001 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 395915000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 395925000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 396015000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 396135000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 396195000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 396315000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 396375000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 396435000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 396495000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 396555000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+blk_mem_gen_v8_4_7 WARNING: Address 2607 is outside range for A Read
+blk_mem_gen_v8_4_7 WARNING: Address 2607 is outside range for A Read
+blk_mem_gen_v8_4_7 WARNING: Address 2608 is outside range for A Read
+blk_mem_gen_v8_4_7 WARNING: Address 2608 is outside range for A Read
+Time: 590665000 | state: 100 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 1 | TxD: 1
+blk_mem_gen_v8_4_7 WARNING: Address 2609 is outside range for A Read
+Time: 590675000 | state: 010 | RxData: 11110000 | data_to_transmit: 01010010 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 590685000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 590775000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 590955000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 591015000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 591195000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 591255000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 0
+Time: 591315000 | state: 010 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 591335000 | state: 011 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 1 | image_done: 0 | TxD: 1
+Time: 591345000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 591435000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 591615000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 591675000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 591855000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1
+Time: 591915000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 0
+Time: 591975000 | state: 000 | RxData: 00001111 | data_to_transmit: 01000100 | transmit: 0 | image_done: 0 | TxD: 1

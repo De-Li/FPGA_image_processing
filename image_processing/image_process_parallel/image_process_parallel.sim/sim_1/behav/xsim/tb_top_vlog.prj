@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../image_process_parallel.gen/sources_1/ip/bram_image/sim/bram_image.v" \
+"../../../../image_process_parallel.srcs/sources_1/new/image_processing.v" \
+"../../../../image_process_parallel.srcs/sources_1/new/top.v" \
+"../../../../image_process_parallel.srcs/sim_1/new/tb_image_bram.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
