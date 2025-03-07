@@ -83,5 +83,57 @@ This is a safety state that ensures the FSM returns to IDLE if an undefined stat
 
 # Image Processing
   
+ In your project, the image processing part focuses on grayscale conversion. Grayscale processing simplifies image data by removing color information and representing each pixel with a single intensity value (instead of RGB channels).
 
+How Grayscale Conversion Works
+Input Format: The original image is likely in RGB format, where each pixel is represented by three color channels:
+
+𝑅
+(
+𝑅
+𝑒
+𝑑
+)
+,
+ 
+𝐺
+(
+𝐺
+𝑟
+𝑒
+𝑒
+𝑛
+)
+,
+ 
+𝐵
+(
+𝐵
+𝑙
+𝑢
+𝑒
+)
+R(Red), G(Green), B(Blue)
+Conversion Formula: A common method to convert RGB to grayscale is using the weighted sum approach based on human perception:
+
+Gray
+=
+0.299
+×
+𝑅
++
+0.587
+×
+𝐺
++
+0.114
+×
+𝐵
+Gray=0.299×R+0.587×G+0.114×B
+Green has the highest weight since the human eye is more sensitive to it.
+FPGA Implementation:
+
+Store pixel data in BRAM (Block RAM).
+Perform the weighted sum calculation using fixed-point or integer arithmetic (to optimize for FPGA).
+Write the result back to BRAM or output buffer.
  ![Description](./image_processing/grayscale.jpg)
