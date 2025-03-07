@@ -7,23 +7,24 @@ https://www.youtube.com/watch?v=6CpSlv1se7U
 The board used to this project:
 https://digilent.com/shop/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/?srsltid=AfmBOopdOXaN63CUVnT3Od-TNtv-x9Ta9h8HCUwDLC5ICr2k9SD5TSFr
 
-#Overview
+# Overview
 This project implements UART communication and image processing using FPGA, with runtime tests for parallel computation.
 
-#Part 1: UART
+# Part 1: UART
 Reception – Describe the functionality and implementation details of data reception.
 Transmission – Explain the functionality and code implementation of data transmission.
 Reception and Transmission – Describe how reception and transmission are combined and synchronized.
 
-#Part 2: Image Processing
+# Part 2: Image Processing
 BRAM Control – Explain how BRAM is used for storing and accessing image data.
 
 Parallel Image Processing Test– Discuss strategies and steps for parallel image processing.
 
-#Part 3: Runtime Testing
+# Part 3: Runtime Testing
 Testing Parallel Computation – Provide methods and analysis for testing the performance of parallel computation.
 
-#UART Receive:
+
+# UART Receive:
 IDLE:
 Finite State Machine (FSM) in UART
 A Finite State Machine (FSM) is used in UART communication to manage the sequential states involved in transmitting and receiving data. The FSM helps control the timing, order, and transition between different phases of UART communication.
@@ -57,7 +58,7 @@ The FSM assigns the received data from rxshiftreg to RxData.
 If RxD goes low (indicating the start of a new transmission), the FSM transitions to START.
 Otherwise, it returns to IDLE.
 
-#UART Transmit:
+# UART Transmit:
 IDLE
 
 The FSM starts in the IDLE state, waiting for a transmit signal and a pulse (which could be a clock edge).
