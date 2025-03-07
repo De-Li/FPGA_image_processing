@@ -1,5 +1,5 @@
 # FPGA
- Projects related to FPGA
+Tools:
 
 Refer this tutorial for Vivado simulation, you can open each project with Vivado and it will make your life easier.
 https://www.youtube.com/watch?v=6CpSlv1se7U
