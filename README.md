@@ -8,7 +8,7 @@ The board used to this project:
 https://digilent.com/shop/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/?srsltid=AfmBOopdOXaN63CUVnT3Od-TNtv-x9Ta9h8HCUwDLC5ICr2k9SD5TSFr
 
 # Overview
-This project implements UART communication and image processing using FPGA, with runtime tests for parallel computation.
+This project implements UART communication and image processing using FPGA to offload heavy tasks for parallel computation in realtime.
 
 # Part 1: UART
 Reception – Describe the functionality and implementation details of data reception.
