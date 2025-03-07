@@ -81,4 +81,7 @@ default
 
 This is a safety state that ensures the FSM returns to IDLE if an undefined state occurs.
 
+# Image Processing
+  
 
+ ![Description](./image_processing/grayscale.jpg)
