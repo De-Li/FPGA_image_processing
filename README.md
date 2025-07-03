@@ -90,8 +90,9 @@ This is a safety state that ensures the FSM returns to IDLE if an undefined stat
 2. During image processing, read pixel data from BRAM and process it.
 3. Write the result back to BRAM.
 4. Send back to the host via UART.
-The size of image is decompressed to 177*110.
- ![Description](./image_processing/grayscale.jpg)
+
+ ![Description](./image_processing/grayscale.jpg)  
+ The size of image is decompressed to 177*110.  
 
 
 Find more image processing example: https://github.com/Gowtham1729/Image-Processing
