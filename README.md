@@ -87,7 +87,7 @@ This is a safety state that ensures the FSM returns to IDLE if an undefined stat
 
 # Steps:
 1. Store pixel data in BRAM (Block RAM).
-2. Perform the weighted sum calculation using fixed-point or integer arithmetic (to optimize for FPGA).
+2. During image processing, read pixel data from BRAM and process it.
 3. Write the result back to BRAM.
 4. Send back to the host via UART.
  ![Description](./image_processing/grayscale.jpg)
